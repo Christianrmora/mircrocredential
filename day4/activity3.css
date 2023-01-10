@@ -1,0 +1,128 @@
+*{box-sizing: border-box;}
+/* section for locations */
+.title{
+    border: solid 5px;
+    text-align: center;
+    background-color: beige;
+    padding: 1em;
+    width: 55%;
+    margin: auto;
+    box-shadow: 5px 5px 4px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+    position: relative;
+}
+.inverted, .blur, .sepia{width: 50%;}
+.inverted{filter: invert(80%);}
+.blur{filter: blur(5px);}
+.sepia{filter: sepia(100%);
+}
+.pos1{ 
+   position: absolute;
+   top: 60%;
+   left: 19%;
+   width: 15%;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   border: ridge whitesmoke;
+   color: rgb(255, 255, 255);
+   text-align: left;
+   padding: 10px;
+   font-size: 16px;}
+   .pos2{ 
+    position: absolute;
+    top: 33%;
+    left: 19%;
+    width: 12%;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.651);
+    box-shadow:  3px 0px 10px 5px whitesmoke ;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;}
+    .head1{color: maroon;
+      font-weight: bold;
+      font-size: x-large;
+    }
+    .head2{
+        background-color:#800000a6;
+        color: rgb(255, 255, 255);
+        display: block;
+        text-align: center;
+        padding: 1em;
+        width: 60%;
+        font-size: small;
+        border-radius: 5px;
+        margin-left: 5%;
+    
+        
+
+    }
+    .head2:hover{
+        background-color: #ff8e00;
+        box-shadow: 0px 0px 10px 5px whitesmoke;
+        
+    }
+    .head3{
+        color: whitesmoke;
+        text-decoration: none;
+    
+    }
+    .head4{
+        position: absolute;
+        top: 40%;
+        left: 17%;
+        width: 15%;
+        text-align: center;
+        border: none;
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 38px;}
+    .p1{ 
+        position: absolute;
+        top: 37%;
+        left: 2%;
+        width: 15%;
+        text-align: left;
+        border: none;
+        color: rgb(255, 0, 234);
+        padding: 10px;
+        font-size: large ;
+        font-style: italic;
+      }
+
+    .p2{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        width: 15%;
+        text-align: left;
+        border: none;
+        color: rgb(255, 0, 234);
+        padding: 10px;
+        font-size: large ;
+
+    }
+    .p3{
+        position: absolute;
+        top: 22%;
+        left: 16%;
+        width: 15%;
+        text-align: left;
+        border: none;
+        color: rgb(255, 0, 234);
+        padding: 10px;
+        font-size: large ;
+        font-style: oblique;
+    }
+
+    
+        
+    
