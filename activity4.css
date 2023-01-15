@@ -1,0 +1,167 @@
+*{box-sizing: border-box;}
+.animation{
+    width: 80%;
+    margin: auto;
+    border: ridge 1.5em teal;
+    position: relative;
+    overflow: hidden;
+}
+.bg{width: 100%;
+display: block;
+animation: filter forwards 300ms; 
+animation-delay: 6s;
+}
+@keyframes filter{
+    0%{filter: invert(100%);}
+    100%{filter: invert(0%);}
+}
+.camera{width: 20%;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    top: 450px;
+    animation: zoom 6s forwards;
+    transform: scale(0);
+    
+    
+    
+    
+}
+@keyframes zoom{
+    0%{transform: scale(0);}
+    20%{transform: scale(1)}
+    95%{transform: scale(1)}
+    100%{transform: scale(0);}
+}
+.h1{
+    font-weight: 20%;
+    font-style: oblique;
+    font-size: 8em;
+    position: absolute;
+    top: -100px;
+    left: 120px;
+    font-family: fantasy;
+    color: crimson;
+    animation: zoom2 5s forwards;
+    animation-delay: 1s;
+    transform: scale(0);
+}
+@keyframes zoom2{
+    0%{translate: (0,0) scale(0);}
+    20%{transform: scale(1) translateY(150px);}
+    95%{transform: scale(1) translateY(150px)}
+    100%{transform: scale(0)}
+
+}
+.heart{
+    width: 14%;
+    position: absolute;
+    top: 480px;
+    right: 286px;
+    animation: animationheart 390ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+@keyframes animationheart{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.heart2{
+    width: 18%;
+    position: absolute;
+    top: 170px;
+    left: 360px;
+    animation: animationheart 160ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart3{
+    width: 13%;
+    position: absolute;
+    bottom: 175px;
+    left: 13px;
+    animation: animationheart 300ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart4{
+    width: 15%;
+    position: absolute;
+    top: 560px;
+    left: 235px;
+    animation: animationheart 200ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart5{
+    width: 16%;
+    position: absolute;
+    bottom: 200px;
+    right: 110px;
+    animation: animationheart 250ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart6{
+    width: 8%;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+    animation: animationheart 189ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart7{
+    width: 14%;
+    position: absolute;
+    bottom: 160px;
+    left: 170px;
+    animation: animationheart 220ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart8{
+    width: 13%;
+    position: absolute;
+    top: 210px;
+    right: 80px;
+    animation: animationheart 190ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart9{
+    width: 17%;
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    animation: animationheart 170ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart10{
+    width: 9%;
+    position: absolute;
+    top: 10px;
+    right: 105px;
+    animation: animationheart 148ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart11{
+    width: 11%;
+    position: absolute;
+    top: 230px;
+    left: 230px;
+    animation: animationheart 241ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.heart12{
+    width: 10%;
+    position: absolute;
+    top: 430px;
+    left: 100px;
+    animation: animationheart 275ms infinite ;
+    opacity: 0;
+    animation-delay: 8s;
+}

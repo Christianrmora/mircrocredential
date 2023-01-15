@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 - Christian Mora</title>
+</head>
+<body>
+    <h1>Christian Mora</h1>
+    <!-- JAVASCRIPT -->
+    
+    <script>
+        /*
+     
+        let firstName, lastName; 
+        let x = 100, y = -1.5, z = 7
+        let boolean1 = true, boolean2 = false;
+        let name = null
+
+        firstName = 'Peter';
+        firstName = "Maria";
+
+        console.log('Hello there!');
+        console.log(firstName, y);
+        console.log('First name = ', firstName);
+        console.log(firstName + ' is my first name');
+        console.log(`${firstName} is my first name`);
+
+        let fullName = prompt('Please enter a name: ');
+        console.log(`The entered name is: ${fullName}`);
+
+        let num1 = parseInt( prompt('Enter number 1: '));
+        let num2 = prompt('Enter number 2: ');
+        num2 = parseInt(num2);
+        let sum = num1 + num2;
+        let allUppercase = fullName.toUpperCase = fullName.toUpperCase();
+        console.log(allUppercase);
+        
+        let myString = "Queensborough Community College";
+        console.log(myString);
+        let stringLocation = myString.search('Col');
+        console.log(`The index location for Co is: ${stringLocation}`);
+
+        // remove white space
+        let name3 = '     William      Smith';
+
+        // subtracting characters
+        let subWord = myString.substr(6,7);
+        console.log(subWord);
+
+        // first find the position of the word and then subtract 5 characters from the word
+        let findFirst = myString.search('Com');
+        let subSec = myString.substr(findFirst,5);
+        console.log(`The substracted characters are ${subSec}`);
+
+        // extract characters from an string
+        let extractCharacter = myString.slice(6,10
+        );
+        console.log(`The extracted characters are ${extractCharacter}`);
+        */
+        // ARRAYS
+        let fruits;
+        fruits = ["apples", 'oranges', 'grapes', 'h'];
+
+        let cars = ['Nissan', 'Tesla', 'Mazda', 'Mercedez'];
+        let mixedItems = [65,true,'cats'];
+
+        console.log(cars);
+        console.log(mixedItems);
+        console.log(`The second item in array fruits is: ${fruits[1]}`);
+
+        let countries = ['Canada', 'USA',['Mexico', 'Colombia', 'Peru']]; //nesting arrays
+        console.log(countries);
+        console.log(countries[1][2]);
+
+        // creaye a copy of an array
+        let newItems = mixedItems; //direct copy: link update
+        let newItemsSclice = mixedItems.slice(); // make an independent copy: updates are not linked
+        
+        //find the second character on a third item 'cats'
+        let indexCats = mixedItems.indexOf('cats')
+        let charCats = mixedItems[indexCats][1]
+       
+        
+        // ACTIVITY 5.1: Variables, strings, and arrays
+        console.log('Activity 5.1');
+
+        let Name2 = prompt('Please enter a name2');
+        let luckyNumber = prompt('Please enter lucky number');
+        console.log('Welcome to the program ' + Name2 + '. Your lucky number is ' + luckyNumber + '.');
+        console.log(`Good Morning ${Name2}. Your entered number is ${luckyNumber}.`);
+
+        // Activity 5.2: String and string methods
+        console.log('Activity 5.2');
+        let name4 =prompt ('Enter a word');
+        console.log(`The Second letter of the word is: ${name4[1]}`);
+        
+        let myStrLength = name4.length;
+        console.log(`The length of word ${name4} is ${myStrLength}`);
+
+        let myUpperStr1 = name4.toUpperCase();
+        console.log(myUpperStr1);
+
+        let mystrSlice = name4.slice(-2)
+        console.log(`The last two characters of the word ${name4} is ${mystrSlice}`)
+
+        // Activity 5.3: Arrays amd array methods
+        let mixedItems1 = [20, 'red', true, 'pink', 3]
+        console.log('Mixed array with the initial Values:' + mixedItems1)
+
+        let Animal = prompt('Please enter a animal: ');
+        mixedItems1.push(Animal)
+        console.log(`Mixed array with an new animal added to the end: ${mixedItems1}` );
+
+        let NegativeNumber = prompt('Please enter negative number');
+        mixedItems1.unshift(NegativeNumber)
+        console.log(`Mixed array with a new NEGATIVE NUMBER added to the front, beginning, of the array: ${mixedItems1}`);
+
+        let copyArray = mixedItems1.slice();
+        let reverseArray = mixedItems1.reverse();
+        console.log(`Mixed array ${copyArray} and reverse copy of array: ${reverseArray}`);
+
+        
+
+
+       
+
+
+        
+
+
+    </script>
+    
+</body>
+</html>
