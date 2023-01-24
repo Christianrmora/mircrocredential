@@ -1,0 +1,35 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: absolute;
+    background-color: #212121e8 ; 
+    width: 100%;
+    height: 320px;
+}
+.h1{
+    position: absolute;
+    right: 30em;
+    top: 0.25em;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 7em;
+}
+.fig{
+    position: absolute ;
+    width: 100%;
+    top: 50%;
+    left: 5%;
+}
+.fig2{
+    position: absolute;
+
+}
+.fig3{
+    position: absolute;
+}
