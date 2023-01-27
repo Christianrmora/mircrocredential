@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Christian Mora</title>
+    <style>
+        .divColor{
+            background-color: rgb(100, 20, 50);
+            height: 10em;
+            width: 20em;
+        }
+        .btnColor{
+            background-color: black;
+            width: 60%;
+            margin: 20%;
+            color: whitesmoke;
+            padding: 1em;
+        }
+        .display{
+            background-color: black;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            color: white;
+            font-size: 1.2em ;
+
+        }
+        .GOtop{
+            background-color: rgba(100,100,100,0.9);
+            padding: 0.2em;
+            width: 2em;
+            height: 2em;
+            text-align: center;
+            font-size: 1.5em;
+            border-radius: 50%;
+            position: fixed;
+            right: 5%;
+            bottom: 5%;
+            opacity: 0;
+        }
+        .GOtop:hover{
+            background-color: aqua;
+            box-shadow: 0px 0px 5px 3px black;
+        }
+        html{scroll-behavior: smooth;}
+    </style>
+</head>
+<body>
+    <h1>Events - Christian Mora </h1>
+    <h1> Example 1 - Inline event</h1>
+    <button onclick="alert('You clicked!')"> CLICK HERE!</button>
+    <h2>Example 2 - traditional event handlers</h2>
+    <button class="btn1">CLICK ME!</button>
+    <h2>Example 3 - mouse events</h2>
+    <a href="https://www.qcc.cuny.edu/" target="_blank" class="aLink">QCC website</a>
+    <h2>Example 4 - mouse event</h2>
+    <h2 class="mouseOut">Move mouse out!</h2>
+    
+    <h2>Example 5- event listener with click</h2>
+    <button class="btn2">CLICK!</button>
+
+    <h2>Example 6 - click event</h2>
+    <div class="divColor">
+        <button class = "btnColor"> CHANGE COLOR</button>
+    </div>
+
+<h2>Example 7 - mouse event</h2>
+<button class="btn3">ADD MESSAGE</button>
+<p class ='pmouse'>MESSAGE WILL ADD IT HERE AFTER AN EVENT: </p>
+
+<h2>Example 10</h2>
+<input type="text" class="inputTxt">
+
+<h2>Example 11 - window event</h2>
+<div class="display">Display the window size</div>
+
+<h2>Example 12 - go to top icon</h2>
+<div class="GOtop">
+    <a href="#">&#x270C;<br></a>
+</div>
+
+<h2>Example 17</h2>
+<a href="https://www.qcc.cuny.edu/" target="_blank" class="aLink">QCC Website</a>
+
+    <script src = 'activity11.js'></script>
+</body>
+</html>
