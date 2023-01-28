@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sent!</title>
+</head>
+<body>
+    <h1>Your form has been sent!</h1>
+    <a href="activity14.html">BACK TO HOME</a>
+    <p>Username: <span id="result_name">......</span></p>
+    <script>
+        let printrName = document.querySelector('#result_name')
+        printrName.innerHTML = sessionStorage.getItem('userN')
+    </script>
+</body>
+</html>

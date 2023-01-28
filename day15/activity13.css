@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    width: 19em;
+    margin: 1%;
+    /* The Border used is just reference doesnt have to be used */
+    border: solid 1px;
+     background-color: white; /*This background color is to the whole container of the item / images */
+}
+/* WHAT HAPPENS  IF WE DONT USE .imgCont and only use .itemImg? */
+.imgCont{width: 100%;
+    height: 25em;
+    overflow: hidden;
+}
+/* Why do we control the item height through .imgCont and not .itemImg? */
+.itemImg{
+    width: 80%;
+    margin-left: 10%; /* This center the image from the left or right in this situation the width is 80% remainder is 20 divide it by 2 and 10 on each side*/
+    margin-top: 15%;
+}
+.infoItem{
+    text-align: center;
+}
+.p1{
+    color: rgb(121, 121, 121);
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.p2{
+    font-weight: 900;
+    font-size: 1.1em;
+    margin-top: -0.5em;
+}
+.p3{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin-top: 1em;font-weight: 900;
+}
+.link{
+    background-color: black;
+    color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
+.link:hover{
+    background-color: whitesmoke;
+    color: rgb(50, 50, 50);
+}
+/* MODAL WINDOW ITEM */
+.modalWindow{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50, 50, 50, .6);
+    display: none;
+}
+.modalContent{
+    width: 40%;
+    height: 80%;
+    margin: 5% auto;
+    background-color: white;
+}
+.modalHead{
+    width: 80%;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(50, 50, 50);
+    border-bottom: inset lightgray 2px;
+    margin: 1em 3em;
+    padding-top: 1em;
+    float: left;
+}
+.modalHeadX{
+    float: right;
+    font-size: 1.5em;
+    padding: .5em;
+}
+.modalHeadX:hover{
+    background-color: gray;
+    transition: ease-in-out 0.3s;
+    color: whitesmoke;
+}
+.modalTop{
+    display: flex;
+}
+.modalBody{
+    display: flex;
+}
+.modalImg{
+    width: 30%;
+}
+.modalInfo{
+    width: 70%;
+    text-align: center;
+}
+.modalImg img{
+    width: 80%;
+    margin-left: 3em;
+}

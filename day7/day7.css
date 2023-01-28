@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+:root{
+    --primary:#216311;
+    --primaryLight: #52913e;
+    --primaryDark: #003800;
+    --secondary: #f23c9a;
+    --secondaryLight: #ff75cb;
+    --secondaryDark: #bb006c;
+}
+.h1title{background-color: var(--primaryDark); 
+    color: var(--secondaryLight);}
+
+.cardcontainer{display: flex;}
+.cardbody{
+    width: 30%; 
+    margin-top: 5%; 
+    margin-left: 5%;
+}
